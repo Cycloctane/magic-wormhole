@@ -30,9 +30,6 @@ jobs:
         python --version
         tox -e coverage
 
-    - name: Upload Coverage
-      run: codecov
-
   flake8:
     runs-on: ubuntu-latest
 
